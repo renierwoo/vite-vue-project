@@ -1,0 +1,9 @@
+.dockerignore
+.DS_Store
+.gitignore
+assets/
+Dockerfile
+LICENSE
+Makefile
+README.md
+scaffolding/
