@@ -24,6 +24,9 @@ build-init-if-not-exists: ## build docker image wootechspace/init-vite-vue-proje
 			make --no-print-directory build-init; \
 		fi
 
+# ---------------------------------------------------------------------------------------------------------------------------------------------------
+# WARNINGS!!! This function initialized the project files from scratch
+# ---------------------------------------------------------------------------------------------------------------------------------------------------
 .PHONY: init
 init: build-init-if-not-exists ## init vite-vue project
 		@docker container run --detach --name temp-container $(IMAGE_NAME):$(IMAGE_TAG) /bin/bash > /dev/null 2>&1 || true
