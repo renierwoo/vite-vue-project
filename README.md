@@ -11,6 +11,6 @@
 </p>
 <br/>
 
-# Vite+Vue Project
+# Vite + Vue 3
 
-## Scaffolding Your First Vite+Vue Project
+## Scaffolding Your First Vite + Vue 3 Project
